@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<script>
+var i = 0;
+    function setLetter(e)
+    {
+        console.log(e.target.innerHTML);
+        if(i%2)
+        {
+            e.target.innerHTML = "O";
+        }
+        else
+        {
+            e.target.innerHTML = "X";
+        }
+        i++;
+        
+    }
+</script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td onclick="setLetter(event)">=
+            </td>
+            <td onclick="setLetter(event)">=
+            </td>
+            <td onclick="setLetter(event)">=
+            </td>
+        </tr>
+        <tr>
+            <td onclick="setLetter(event)">=
+            </td>
+            <td onclick="setLetter(event)">=
+            </td>
+            <td onclick="setLetter(event)">=
+            </td>
+        </tr>
+        <tr>
+            <td onclick="setLetter(event)">=
+            </td>
+            <td onclick="setLetter(event)">=
+            </td>
+            <td onclick="setLetter(event)">=
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
