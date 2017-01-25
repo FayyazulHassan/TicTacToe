@@ -18,35 +18,22 @@ var i = 0;
         
     }
 </script>
+<link rel="stylesheet" type="text/css" href="./ttt.css">
+
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td onclick="setLetter(event)">=
-            </td>
-            <td onclick="setLetter(event)">=
-            </td>
-            <td onclick="setLetter(event)">=
-            </td>
-        </tr>
-        <tr>
-            <td onclick="setLetter(event)">=
-            </td>
-            <td onclick="setLetter(event)">=
-            </td>
-            <td onclick="setLetter(event)">=
-            </td>
-        </tr>
-        <tr>
-            <td onclick="setLetter(event)">=
-            </td>
-            <td onclick="setLetter(event)">=
-            </td>
-            <td onclick="setLetter(event)">=
-            </td>
-        </tr>
-    </table>
+    <div id="field">
+        <div class="cell top left" onclick="setLetter(event)"></div>
+        <div class="cell top center" onclick="setLetter(event)"></div>
+        <div class="cell top right" onclick="setLetter(event)"></div>
+        <div class="cell middle left" onclick="setLetter(event)"></div>
+        <div class="cell middle center" onclick="setLetter(event)"></div>
+        <div class="cell middle right" onclick="setLetter(event)"></div>
+        <div class="cell bottom left" onclick="setLetter(event)"></div>
+        <div class="cell bottom center" onclick="setLetter(event)"></div>
+        <div class="cell bottom right" onclick="setLetter(event)"></div>
+    </div>
 </body>
 
 </html>
